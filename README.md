@@ -25,6 +25,10 @@ Two Models: User and Post
 
 ## Levels of Development to Achive
 
+* Bronze Level: MVP for Users and Posts. Professional looking CSS. 
+* Silver Level: Implement country info API. Search function in HomePage.
+* Gold Level: Have a clickable map on the HomePage. Users can click on the map to get the country info. 
+* Bonus: Have weather search and foreign exchange calculator on the HomePage. 
 
 
 
