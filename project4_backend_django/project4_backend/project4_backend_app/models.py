@@ -22,8 +22,15 @@ class Post(models.Model):
     tips = models.CharField(max_length=500)
     cost = models.DecimalField(max_digits=6, decimal_places=2)
     image = models.CharField(max_length=150)
-    
+    useful = models.PositiveIntegerField()
+        
     def __str__(self):
         return self.city
 
+class UserUpdatedPost(models.Model): 
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='userupdatedposts')
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='postupdatedusers')
+
+    def __str__(self):
+        return self.post.content
 
