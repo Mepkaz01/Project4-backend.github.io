@@ -5,25 +5,28 @@ Travel Blog/Journal
 
 ## ER Diagram
 
-![ERD Image](https://user-images.githubusercontent.com/82845234/124158351-ccf49600-da67-11eb-8ae3-b36a6efd5c37.png)
-
-
+![ERD Image](https://user-images.githubusercontent.com/82845234/124980078-ee262b00-e001-11eb-9297-1272f75e95b6.png)
 
 ## User Stories
 
-Two Models: User and Post
+Three Models: User, Admin, Post
+* CRUD for Admin table:
+  1) Log In
+  2) Sign Up
+  3) Profile/About
+  4) Admin Profile Edit/Delete
+  
 * CRUD for User table:
   1) Log In
   2) Sign Up
   3) Profile
-  4) Profile Edit
-  5) Profile Delete
-
+  4) Profile Edit/Delete
+  
 * CRUD for Post table:
-  1) Index/Item Listing
-  2) Add Item
-  3) Update Item
-  4) Delete Item
+  1) List of Posts
+  2) Add Post
+  3) Update Post
+  4) Delete Post
 
 ## Levels of Development to Achive
 
