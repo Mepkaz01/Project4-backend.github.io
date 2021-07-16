@@ -1,7 +1,8 @@
 # Project4-backend.github.io
-Travel Blog/Journal
 
 ## About
+
+Travel Blog/Journal where admin can post travel tips for users to see
 
 ## ER Diagram
 
