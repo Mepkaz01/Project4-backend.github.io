@@ -2,7 +2,7 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.bulkInsert('Favorites', [
+    await queryInterface.bulkInsert('Bookmarks', [
       {
           userId: 1,
           postId: 1

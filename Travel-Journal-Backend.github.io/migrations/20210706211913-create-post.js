@@ -29,10 +29,16 @@ module.exports = {
       cost: {
         type: Sequelize.NUMERIC
       },
-      image: {
+      image1: {
         type: Sequelize.STRING
       },
-      favorite: {
+      image2: {
+        type: Sequelize.STRING
+      },
+      image3: {
+        type: Sequelize.STRING
+      },
+      bookmark: {
         type: Sequelize.INTEGER
       },
       adminId: {

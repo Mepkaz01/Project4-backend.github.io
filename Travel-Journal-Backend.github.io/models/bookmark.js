@@ -4,17 +4,17 @@ const {
 } = require('sequelize');
 const post = require('./post');
 module.exports = (sequelize, DataTypes) => {
-  class Favorite extends Model {
+  class Bookmark extends Model {
     static associate(models) {
-      Favorite.belongsTo(models.User, {foreignKey: 'userId'})
+      Bookmark.belongsTo(models.User, {foreignKey: 'userId'})
     }
   };
-  Favorite.init({
+  Bookmark.init({
     userId: DataTypes.INTEGER,
     postId: DataTypes.INTEGER
   }, {
     sequelize,
-    modelName: 'Favorite',
+    modelName: 'Bookmark',
   });
-  return Favorite;
+  return Bookmark;
 };
