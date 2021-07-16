@@ -5,7 +5,9 @@ Travel Blog/Journal
 
 ## ER Diagram
 
-![ERD Image](https://user-images.githubusercontent.com/82845234/124980078-ee262b00-e001-11eb-9297-1272f75e95b6.png)
+![ERD Image](https://user-images.githubusercontent.com/82845234/125889339-64333435-a24c-42df-8ce8-d45e1508631e.png)
+
+
 
 ## User Stories
 
